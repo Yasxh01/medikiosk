@@ -1,0 +1,28 @@
+# Node.js Dependencies & Production Builds
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Python Virtual Environments & Bytecode
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.production
+.DS_Store
+
+# Temporary & Archive Files
+*.zip
+*.tar.gz
+zip_stage*/
